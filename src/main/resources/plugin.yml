@@ -1,0 +1,72 @@
+name: AbilityProject2
+version: '1.0-SNAPSHOT'
+main: com.sa1f.abilityProject2.AbilityProject2
+api-version: '1.21'
+commands:
+  hero:
+permissions:
+  hero.Strength:
+    default: false
+  hero.Haste:
+    default: false
+    description: Allows the player to use the Haste ability.
+
+  hero.Speed:
+    default: false
+    description: Allows the player to use the Speed ability.
+
+  hero.Regeneration:
+    default: false
+    description: Allows the player to use the Regeneration ability.
+
+  hero.Resistance:
+    default: false
+    description: Allows the player to use the Resistance ability.
+
+  hero.Jump_Boost:
+    default: false
+    description: Allows the player to use the Jump Boost ability.
+
+  hero.Fire_Resistance:
+    default: false
+    description: Allows the player to use the Fire Resistance ability.
+
+  hero.Water_Breathing:
+    default: false
+    description: Allows the player to use the Water Breathing ability.
+
+  hero.Night_Vision:
+    default: false
+    description: Allows the player to use the Night Vision ability.
+
+  hero.Health_Boost:
+    default: false
+    description: Allows the player to use the Health Boost ability.
+
+  hero.Absorption:
+    default: false
+    description: Allows the player to use the Absorption ability.
+
+  hero.Saturation:
+    default: false
+    description: Allows the player to use the Saturation ability.
+
+  hero.Luck:
+    default: false
+    description: Allows the player to use the Luck ability.
+
+  hero.Slow_Falling:
+    default: false
+    description: Allows the player to use the Slow Falling ability.
+
+  hero.Conduit_Power:
+    default: false
+    description: Allows the player to use the Conduit Power ability.
+
+  hero.Hero_Of_The_Village:
+    default: false
+    description: Allows the player to use the Hero of the Village ability.
+
+  hero.dolphins_grace:
+    default: false
+    description: Allows the player to use the Dolphin's Grace ability.
